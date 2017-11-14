@@ -7,7 +7,6 @@ class MyStack:
   def push(self, new_element):
     # adds new element to the top of the stack
     self.stack.append(new_element)
-    pass
 
   def pop(self):
     # Remove the top most element and also return it
