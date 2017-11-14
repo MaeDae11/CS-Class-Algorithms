@@ -1,5 +1,9 @@
 import picasso
 import numpy.random as r
+# Bubble sort:
+#  - for each scan through, going to bubble the highest number to the top
+#  - repeatedly scan untill scan through and DONT swap
+#  - even if no (is i > i+1 ex: 3 > 4) still keep checking
 
 def bubble_sort(a):
     swapped = True
